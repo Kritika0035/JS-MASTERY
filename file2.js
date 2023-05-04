@@ -48,3 +48,21 @@ let Value ="Designing";
 
 console.log(Value.slice(4)); //print from 4 to last index.
 console.log(Value.slice(2,6)); //print from 2 to 5 index.
+
+
+// string concatination
+
+let str1 = "kritika";
+let str2 = "Gupta";
+
+console.log(str1 + " " + str2); // add two or more stirng using + sign
+
+// template strings
+
+let msg = "Kritika";
+let rollno = "35";
+
+let aboutme = `my name is ${msg} and my rollno is ${rollno}`
+
+console.log(aboutme);
+
